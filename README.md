@@ -1,10 +1,13 @@
 # Machine-Learning-Project
 
 # Software and Account Requirement
-1. Github Account
-2. Heroku Account
-3. VS Code
-4. GIT cli
+1. [Github Account](https://github.com)
+2. [Heroku Account](https://dashboard.heroku.com/login)
+3. [VS Code](https://code.visualstudio.com/download)
+4. [GIT cli](https://git-scm.com/downloads)
+5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
+
+
                                                                                                                                                                                                                                                                     creating conda environment
                                                                                                                                                                                                                                                                     conda create -p nenv -y                                                                                                                                                                                                                                                                                                                                                                                        
 pip install -r requirements.txt
@@ -30,9 +33,10 @@ To create version/commit all changes by git
 
 git commit -m "message"
 ...
-
 to send changes/version to github 
 ...
+
+
 
 git push origin main
 ...
@@ -43,3 +47,27 @@ git remote -v
 ...
 
 
+To setup CI/CD pipeline in heroku we need 3 information
+
+1. HEROKU_EMAIL = saritha.jce@gmail.com
+2. HEROKU_API_KEY = ea4ee41f-eee3-404e-9e9a-5d105207fcc8
+3. HEROKU_APP_NAME = ml-regression4590-app
+
+
+BUILD DOCKER IMAGE
+......
+docker build -t <image_name>:<tagname> .
+....
+
+>Note: Image name for docker must be lowercase
+
+
+To check running container in docker
+...
+docker ps
+...
+
+To stop docker container
+....
+
+docker stop <container_id>
