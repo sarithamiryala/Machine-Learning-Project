@@ -80,5 +80,18 @@ To stop docker container
 
 docker stop <container_id>
 
-.....
+....
+python setup.py
+
+install ipykernel
+....
+pip ipykernel
+...
+
+....
+yaml
+
+install pyyaml
+
+...
 
