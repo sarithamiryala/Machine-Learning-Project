@@ -12,7 +12,7 @@ import os,sys
 
 class Pipeline:
 
-    def __init__(self,config: Configuration = Configuration())->None:
+    def __init__(self,config:Configuartion )->None:
         try:
             pass
         except Exception as e:
@@ -66,4 +66,4 @@ class Pipeline:
             #data ingestion
             data_ingestion_artifact = self.start_data_ingestion()
         except Exception as e:
-            raise HousingException(e,sys) from E
+            raise HousingException(e,sys) from e
