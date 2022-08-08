@@ -95,3 +95,15 @@ install pyyaml
 
 ...
 
+Data Drift:
+When your dataset stats gets change we call it as data drift
+
+If no difference two  dataset it means there is no data drift
+
+if there is huge difference between datatets it is called there is data drift
+
+library used is
+ evidently
+
+ pip install evidently
+
