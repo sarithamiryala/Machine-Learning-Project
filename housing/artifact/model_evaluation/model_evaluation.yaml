@@ -1,5 +1,7 @@
 best_model:
-  model_path: C:\Users\SAMARTH\Machine-Learning-Project\housing\artifact\model_trainer\2022-08-10-05-16-47\trained_model\model.pkl
+  model_path: C:\Users\SAMARTH\Machine-Learning-Project\housing\artifact\model_trainer\2022-08-14-05-29-06\trained_model\model.pkl
 history:
   2022-08-10-05-16-47:
     model_path: C:\Users\SAMARTH\Machine-Learning-Project\housing\artifact\model_trainer\2022-08-08-05-58-44\trained_model\model.pkl
+  2022-08-14-05-29-06:
+    model_path: C:\Users\SAMARTH\Machine-Learning-Project\housing\artifact\model_trainer\2022-08-10-05-16-47\trained_model\model.pkl
